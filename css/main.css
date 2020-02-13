@@ -1,0 +1,21 @@
+body{
+  background-image: url(../images/p1.jpg);
+  background-size: cover;
+
+}
+#container {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: 0.5fr repeat(4, 1fr) .5fr;
+grid-column-gap: 0.5px;
+grid-row-gap: 0.5px;
+}
+#container .title{
+  grid-column: 3/4;
+  grid-row: 1/2;
+  text-align: center;
+  font-family:serif;
+}
+#container .mianphoto{
+  grid-row:
+}
