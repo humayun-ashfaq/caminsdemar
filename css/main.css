@@ -1,28 +1,35 @@
 body{
-background-color: grey;
-color: white;
+background-image:url(../images/bc.jpg);
 font-style: italic;
 font-family: sans-serif;
+}
+#container .wave{
+  background-position: center;
+  background-image: url(../images/wave.png);
+  grid-column:1/6;
+  grid-row: 6/7;
 }
 #container {
 display: grid;
 width: 100%;
 height: 100vh;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-grid-column-gap: 2px;
-grid-row-gap: 2px;
+grid-template-rows: .5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-column-gap: 10px;
+grid-row-gap: 5px;
 }
 #container .title{
-  grid-column: 2/5;
+  grid-column: 1/6;
   grid-row: 1/2;
   text-align: center;
   font-family:serif;
+  color: white;
+  background-color: black;
 }
 #container .text{
   grid-row:2/3;
   grid-column: 1/3;
-  font-size: 20px;
+  font-size: 25px;
   align-content: center;
   color: white;
 }
@@ -37,7 +44,8 @@ grid-row-gap: 2px;
 #container .poemt{
   grid-column:3/6;
   grid-row: 3/4;
-  font-size: 20px;
+  font-size: 25px;
+
 }
 #container .photopoem{
   background-image: url(../images/sea.png);
@@ -50,10 +58,12 @@ grid-row-gap: 2px;
 #container .maidert{
   grid-column: 1/3;
   grid-row: 4/5;
-font-size: 20px;
+font-size: 25px;
+background-position: bottom;
 }
 #container .video{
   grid-column: 4/5;
   grid-row: 4/5;
-  
+  background-position: center;
+  background-size: cover;
 }
