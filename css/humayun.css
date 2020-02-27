@@ -1,12 +1,30 @@
 body{
-background-image:url(../images/beach.jpg);
 font-style: italic;
-font-family:palatino;
 color: white;
+font-family: 'Acme';
 background-size: cover;
 background-position: center;
 }
+body {
+     animation: colorchange 25s infinite ;
+   }
+ @keyframes colorchange
+   {
+     0%   {background: red;}
+     25%  {background: yellow;}
+     50%  {background: blue;}
+     75%  {background: green;}
+     100% {background: red;}
+   }
 
+   @-webkit-keyframes colorchange
+   {
+     0%   {background: red;}
+     25%  {background: yellow;}
+     50%  {background: blue;}
+     75%  {background: green;}
+     100% {background: red;}
+   }
 #container {
 display: grid;
 width: 100%;
@@ -19,6 +37,8 @@ grid-row-gap: 5px;
 
 #container .homeicon{
   margin-left: 5%;
+  height: 0.%
+  width:.5%;
   grid-column: 1/2;
   grid-row: 1/2;
   position: absolute;
@@ -29,8 +49,8 @@ grid-row-gap: 5px;
   grid-column: 1/6;
   grid-row: 1/2;
   text-align: center;
-  font-family:serif;
-  background-color: grey;;
+font-family: 'Acme' ;
+  background-color: black;;
   color: white;
 }
 #container .text{
@@ -39,7 +59,7 @@ grid-row-gap: 5px;
   font-size: 25px;
   align-content: center;
   font-size: 28px;
-  color: black;
+  color: ;
 }
 #container .photomic{
   background-image: url(../images/mic.jpg);
