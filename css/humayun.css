@@ -6,24 +6,24 @@ background-size: cover;
 background-position: center;
 }
 body {
-     animation: colorchange 25s infinite ;
+     animation: colorchange 15s infinite ;
    }
  @keyframes colorchange
    {
-     0%   {background: red;}
-     25%  {background: yellow;}
-     50%  {background: blue;}
-     75%  {background: green;}
-     100% {background: red;}
+     0%   {background: #737373;}
+     25%  {background: #a0a0a0;}
+     50%  {background: #6e6e6e;}
+     75%  {background: #5a5a5a;}
+     100% {background: #3c3c3c;}
    }
 
    @-webkit-keyframes colorchange
    {
-     0%   {background: red;}
-     25%  {background: yellow;}
-     50%  {background: blue;}
-     75%  {background: green;}
-     100% {background: red;}
+     0%   {background: #737373;}
+     25%  {background: #a0a0a0;}
+     50%  {background: #6e6e6e;}
+     75%  {background: #5a5a5a;}
+     100% {background: #3c3c3c;}
    }
 #container {
 display: grid;
@@ -70,6 +70,7 @@ font-family: 'Acme' ;
   background-repeat: no-repeat;
   transition: transform .2s;
 }
+
 
 #container .photomic:hover {
   .zoom:hover
