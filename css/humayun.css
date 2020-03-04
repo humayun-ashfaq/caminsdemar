@@ -113,3 +113,22 @@ background-position: bottom;
   background-position: center;
   background-size: cover;
 }
+#container .v1{
+  background-image: url(../images/v1.jpg);
+  grid-row: 2/5;
+  grid-column: 4/6;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#container .v1t{
+grid-row: 2/5;
+grid-column: 1/3;
+text-align: center;
+font-size: 25px;
+}
+#containter .v2t{
+  grid-row: 5/7;
+  grid-column: 4/6;
+  font-size: 28px;
+}
