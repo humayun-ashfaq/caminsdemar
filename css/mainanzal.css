@@ -1,4 +1,37 @@
 
+body{
+  background: linear-gradient(270deg, #33403d, #605a5a, #b4b3b3);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  -o-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 51%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 51%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 51%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 51%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:0% 51%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 51%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 51%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 51%}
+  }
+}
+h1{
+  color:white;
+}
 .css-selector {
 font-family: 'Indie Flower', serif;
 }
@@ -17,4 +50,4 @@ font-family: 'Indie Flower', serif;
   .div2 { grid-area: 3 / 3 / 7 / 4; }
   .div3 { grid-area: 4 / 4 / 7 / 5; }
   .div4 { grid-area: 3 / 5 / 7 / 6; }
-  .div5 { grid-area: 1 / 1 / 2 / 7; }
+  .div5 { grid-area: 1 / 1 / 2 / 7; background-color: black}
