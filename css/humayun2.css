@@ -59,7 +59,8 @@ font-family: 'Acme' ;
   font-size: 25px;
   align-content: center;
   font-size: 28px;
-  color: ;
+border: solid;
+border-color: black;
 }
 #container .v1{
   background-image: url(../images/v1.jpg);
@@ -69,7 +70,7 @@ font-family: 'Acme' ;
   background-size: contain;
   background-repeat: no-repeat;
   transition: transform .2s;
-  height: 35%;
+  height: 40%;
 }
 
 
@@ -84,13 +85,16 @@ font-family: 'Acme' ;
   grid-column:3/6;
   grid-row: 3/4;
   font-size: 28px;
+  border: solid;
+  border-color: black;
+
 
 
 }
 #container .v2{
   background-image: url(../images/v2.jpg);
-  background-position: top;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   transition: transform .2s;
   grid-column: 1/3;
@@ -107,12 +111,23 @@ font-family: 'Acme' ;
   grid-row: 4/5;
 font-size: 28px;
 background-position: bottom;
+border: solid;
+border-color: black;
+
 }
-#container .video{
-  grid-column: 4/5;
+#container .Viatge{
+background-image: url(../images/viatge.jpg);
+  grid-column: 4/6;
   grid-row: 4/5;
   background-position: center;
   background-size: cover;
+  transition: transform .2s;
+}
+#container .Viatge:hover{
+  .zoom:hover
+  -ms-transform: scale(4); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 #container .v1{
   background-image: url(../images/v1.jpg);
@@ -127,6 +142,9 @@ grid-row: 2/5;
 grid-column: 1/3;
 text-align: center;
 font-size: 25px;
+border: solid;
+border-color: black;
+
 }
 #containter .v2t{
   grid-row: 5/7;
