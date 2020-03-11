@@ -37,14 +37,17 @@ grid-row-gap: 5px;
 
 #container .homeicon{
   margin-left: 5%;
-  height: 0.%
-  width:.5%;
   grid-column: 1/2;
   grid-row: 1/2;
-  position: absolute;
   align-items: center;
   background-position: right;
 }
+
+#container .homeicon img{
+  width: 80%;
+  height: 80%;
+}
+
 #container .title{
   grid-column: 1/6;
   grid-row: 1/2;
@@ -88,7 +91,7 @@ font-family: 'Acme' ;
   border-color: black;
 }
 #container .photopoem{
-  background-image: url(../images/sea.png);
+  background-image: url(../images/sea.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
