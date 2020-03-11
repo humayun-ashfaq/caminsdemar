@@ -11,19 +11,29 @@ body {
  @keyframes colorchange
    {
      0%   {background: #737373;}
-     25%  {background: #a0a0a0;}
-     50%  {background: #6e6e6e;}
-     75%  {background: #5a5a5a;}
-     100% {background: #3c3c3c;}
+     20%  {background: #a0a0a0;}
+     30%  {background: #6e6e6e;}
+     40%  {background: #5a5a5a;}
+     50% {background: #3c3c3c;}
+     60% {background: #3c3c3c;}
+     70%  {background: #5a5a5a;}
+     80%  {background: #6e6e6e;}
+     90%  {background: #a0a0a0;}
+     100%   {background: #737373;}
    }
 
    @-webkit-keyframes colorchange
    {
      0%   {background: #737373;}
-     25%  {background: #a0a0a0;}
-     50%  {background: #6e6e6e;}
-     75%  {background: #5a5a5a;}
-     100% {background: #3c3c3c;}
+     20%  {background: #a0a0a0;}
+     30%  {background: #6e6e6e;}
+     40%  {background: #5a5a5a;}
+     50% {background: #3c3c3c;}
+     60% {background: #3c3c3c;}
+     70%  {background: #5a5a5a;}
+     80%  {background: #6e6e6e;}
+     90%  {background: #a0a0a0;}
+     100%   {background: #737373;}
    }
 #container {
 display: grid;
