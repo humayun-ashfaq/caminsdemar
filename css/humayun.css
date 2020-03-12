@@ -85,8 +85,8 @@ font-family: 'Acme' ;
 
 #container .photomic:hover {
   .zoom:hover
-  -ms-transform: scale(4); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(4);
+  -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
 
@@ -108,8 +108,8 @@ font-family: 'Acme' ;
 }
 #container .photopoem:hover{
   .zoom:hover
-  -ms-transform: scale(4); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(4);
+  -webkit-transform: scale(1.5); 
   transform: scale(1.5);
 }
 #container .maidert{
