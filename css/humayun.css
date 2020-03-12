@@ -101,7 +101,11 @@ font-family: 'Acme' ;
   border-color: black;
 }
 #container .photopoem{
+<<<<<<< HEAD
   background-image: url(../images/sea9.png);
+=======
+  background-image: url(../images/sea9.jpg);
+>>>>>>> 601b8e661f9aa639d7662f37ad49de5bd5505015
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
