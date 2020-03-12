@@ -101,7 +101,7 @@ font-family: 'Acme' ;
   border-color: black;
 }
 #container .photopoem{
-  background-image: url(../images/sea.jpg);
+  background-image: url(../images/sea9.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ font-family: 'Acme' ;
 #container .photopoem:hover{
   .zoom:hover
   -ms-transform: scale(4);
-  -webkit-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
 #container .maidert{
